@@ -13,8 +13,9 @@ def caesar_cipher(s, key)
         end
         res +=(ch);
     end
+    puts res;
     return res;
 end
 
 
-puts caesar_cipher("What a string!", 5)
+# puts caesar_cipher("What a string!", 5)
